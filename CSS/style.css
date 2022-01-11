@@ -1,0 +1,109 @@
+        @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Acme&family=Archivo+Narrow&family=Hammersmith+One&family=Lobster&family=Orelega+One&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            color: rgb(32, 9, 121);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: justify;
+            text-shadow: 3px 3px 3px rgb(252, 252, 248);
+        }
+        
+        body {
+            background-image: url(Logot.png);
+            background: rgb(63, 94, 251);
+            background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(116, 64, 237, 1) 41%, rgba(207, 60, 235, 0.7595413165266106) 46%, rgba(186, 16, 214, 0.3533788515406162) 70%, rgba(193, 22, 218, 0.865983893557423) 100%);
+        }
+        
+        table {
+            padding: 15px;
+        }
+        
+        .tabla2 {
+            margin-left: 100px;
+            margin-right: 100px;
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px;
+            border: rgb(235, 238, 235) solid 8px;
+            border-radius: 40 px;
+        }
+        
+        .p {
+            color: cornsilk;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: rgb(248, 252, 252) solid 3px;
+            padding: 20px;
+            background-color: rgb(63, 94, 251);
+            color: inherit;
+            font-size: 25px;
+            border-radius: 10px;
+            text-shadow: 1px 1px 1px rgb(10, 10, 10);
+        }
+        
+        .p:hover {
+            background-color: rgb(161, 161, 240);
+            color: black;
+        }
+        
+        footer {
+            display: flex;
+            padding: 20px;
+            justify-content: space-around;
+            font-family: 'Fredoka One', cursive;
+        }
+        
+        .nav-social {
+            display: flex;
+            padding: 20px;
+            justify-content: space-around;
+        }
+        
+        nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        video {
+            display: flex;
+            margin: auto;
+            padding: 10px;
+        }
+        
+        #lin {
+            padding: 10px;
+            background-color: rgb(247, 99, 173);
+            width: 100%;
+            text-align: center;
+            font-family: 'Merienda', cursive;
+        }
+        
+        img.imagen1 {
+            width: 150px;
+            height: 150px;
+            border: cornsilk solid 2px;
+        }
+        
+        td.izq {
+            display: flex;
+            justify-content: right;
+            font-family: 'Lobster', cursive;
+        }
+        
+        hr {
+            border-width: 4px;
+            border-style: double;
+            border-color: rgb(19, 0, 68);
+            width: 50%;
+            align-self: center;
+        }
+        
+        ul {
+            font-family: 'Archivo Narrow', sans-serif;
+        }
